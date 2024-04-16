@@ -10,8 +10,8 @@ namespace Expense_Tracker.Models
 		[Column(TypeName = "navarchar(50)")]
 		public string Title { get; set; }
 		[Column(TypeName = "navarchar(5)")]
-		public string Icon { get; set; }
+		public string Icon { get; set; } = "";
 		[Column(TypeName = "navarchar(10)")]
-		public string Type { get; set; }
+		public string Type { get; set; } = "Expense";
 	}
 }
